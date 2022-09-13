@@ -26,11 +26,27 @@ final class FunWithPaulTests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func test3ForDollar() throws {
+
+        let beans = Price(amount: 3, total: 1)
+        XCTAssertEqual(beans.pricePerUnit, 0.33)
+
     }
 
+
+}
+
+
+class Price {
+    var amount: Float
+    var total: Float
+
+    init(amount: Int, total: Int) {
+        self.amount = Float(amount)
+        self.total = Float(total)
+    }
+
+    var pricePerUnit: Float {
+        return round(total/amount  * 100) / 100.0
+    }
 }

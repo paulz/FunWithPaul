@@ -11,6 +11,7 @@
 		62388FA828D139A4001A9B40 /* FunWithPaul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62388F9D28D139A4001A9B40 /* FunWithPaul.framework */; };
 		62388FAD28D139A4001A9B40 /* FunWithPaulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62388FAC28D139A4001A9B40 /* FunWithPaulTests.swift */; };
 		62388FAE28D139A4001A9B40 /* FunWithPaul.h in Headers */ = {isa = PBXBuildFile; fileRef = 62388FA028D139A4001A9B40 /* FunWithPaul.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62388FB828D13BFF001A9B40 /* Beans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62388FB728D13BFF001A9B40 /* Beans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		62388FA128D139A4001A9B40 /* FunWithPaul.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FunWithPaul.docc; sourceTree = "<group>"; };
 		62388FA728D139A4001A9B40 /* FunWithPaulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunWithPaulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62388FAC28D139A4001A9B40 /* FunWithPaulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithPaulTests.swift; sourceTree = "<group>"; };
+		62388FB728D13BFF001A9B40 /* Beans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				62388FA028D139A4001A9B40 /* FunWithPaul.h */,
 				62388FA128D139A4001A9B40 /* FunWithPaul.docc */,
+				62388FB728D13BFF001A9B40 /* Beans.swift */,
 			);
 			path = FunWithPaul;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62388FA228D139A4001A9B40 /* FunWithPaul.docc in Sources */,
+				62388FB828D13BFF001A9B40 /* Beans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		62388FB528D139A4001A9B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PVKFJ5KXUY;
@@ -412,6 +417,7 @@
 		62388FB628D139A4001A9B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PVKFJ5KXUY;

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C2F6CBF1-21F7-4F35-8D91-06E5DE58A3D4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AC73663-CD69-4C4A-8220-71C08249A5A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunWithPaulTests/FunWithPaulTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "pricePerUnit"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4AC73663-CD69-4C4A-8220-71C08249A5A4 - f3f79f71461537d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithPaulTests.Price.pricePerUnit.getter : Swift.Float"
+                  moduleName = "FunWithPaulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wmatlock/xcode-projects/github/FunWithPaul/FunWithPaulTests/FunWithPaulTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "4AC73663-CD69-4C4A-8220-71C08249A5A4 - f3f79f71461537d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunWithPaulTests.Price.pricePerUnit.getter : Swift.Float"
+                  moduleName = "FunWithPaulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wmatlock/xcode-projects/github/FunWithPaul/FunWithPaulTests/FunWithPaulTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
