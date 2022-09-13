@@ -32,8 +32,6 @@ final class FunWithPaulTests: XCTestCase {
         XCTAssertEqual(beans.pricePerUnit, 0.33)
 
     }
-
-
 }
 
 
